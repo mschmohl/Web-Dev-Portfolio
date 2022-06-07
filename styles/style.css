@@ -339,7 +339,9 @@ section {
 .icon-cards .icon-card {
   position: relative;
   border-radius: 15px;
-  height: 18rem;
+  /* height: 18rem; */
+  min-height: auto;
+  padding: 2em 0;
   background-color: var(--color-white);
   display: flex;
   align-items: center;
