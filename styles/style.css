@@ -795,13 +795,16 @@ section {
     .about-container {
       grid-template-columns: repeat(1, 1fr);
     }
+
     .about-container .right-about {
       grid-template-columns: repeat(1, 1fr);
       padding-top: 2.5rem;
     }
+
     .about-container .left-about {
       padding-right: 0;
     }
+    
     .about-container .left-about p {
       padding-left: 0;
     }
